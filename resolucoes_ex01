@@ -21,3 +21,31 @@ public class Main
 }
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+EXERCICIO 02
+
+/******************************************************************************
+
+Crie um programa em Java que declare um vetor de booleanos chamado status com 3 
+posições. Atribua os valores true, false e true a cada uma das posições, 
+respectivamente.
+
+*******************************************************************************/
+public class Main
+{
+	public static void main(String[] args) {
+			boolean[] status = new boolean [3];
+			
+			status[0] = true;
+			status[1] = false;
+			status[2] = true;
+			
+		if(status[2]) {
+		   System.out.println("o status esta ativo");
+		} else {
+		    System.out.println("o status esta desativado");
+		}
+	}
+}
+
