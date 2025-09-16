@@ -1,0 +1,23 @@
+resoluções dos exercicios 01.
+
+EXERCICIO 01 : Crie um programa em Java que declare e inicialize um vetor de inteiros com 5 posições.
+Atribua valores a cada uma das posições e, em seguida, imprima no console o valor armazenado na terceira posição do vetor (índice 2).
+
+RESOLUÇÃO 01: 
+
+public class Main
+{
+	public static void main(String[] args) {
+		int[] num = new int [5];
+		
+		num[0] = 15;
+		num[1] = 30;
+		num[2] = 45;
+		num[3] = 60;
+		num[4] = 75;
+		
+		System.out.println("O valor amarzenado no índice 2 é: " + num[2]);
+	}
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
