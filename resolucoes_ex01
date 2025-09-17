@@ -74,3 +74,31 @@ public class Main
 	}
 }
 
+--------------------------------------------------------------------------------------------------------------------------------------
+EXERCICIO 04
+
+/******************************************************************************
+
+crie um programa em Java que declare e inicialize um vetor de números decimais
+(double) chamado precos, com os seguintes valores: 1.50, 2.75, 5.00, 3.25.
+
+Em seguida, use um laço de repetição for para percorrer todos os elementos do 
+vetor, calculando a soma total dos valores. 
+Ao final do programa, imprima o resultado da soma no console.
+
+*******************************************************************************/
+public class Main
+{
+	public static void main(String[] args) {
+	double[] precos = {1.50, 2.75, 5.00, 3.25};
+	
+     double soma = 0;
+	
+	  for(int i = 0; i < precos.length; i++) {
+	     soma += precos[i];
+	  }
+	  
+	  System.out.println("a soma total de todos os preços é: " + soma);
+	
+	}
+}
